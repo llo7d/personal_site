@@ -1,34 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Configure Tailwind CSS
 
-## Getting Started
-
-First, run the development server:
+After a NextJS project created, install TailwindCSS in the project directory by running:
 
 ```bash
-npm run dev
-# or
-yarn dev
+yarn add -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then update the `tailwind.config.js` file with these:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```javascript
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+And the last thing to do for configuring TailwindCSS is you can open `tailwind.css` file from `src/tailwind.css` in your HTML template and put all of it into `styles/global.css` file in your NextJS project.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Run the Project
 
-## Learn More
+You can run the project by running:
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```bash
+yarn dev
+```
