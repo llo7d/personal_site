@@ -7,6 +7,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
+        {/* I made a change here */}
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" key={"??"} />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" key={"aaa"} />
