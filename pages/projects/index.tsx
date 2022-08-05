@@ -1,11 +1,12 @@
 import Head from "next/head";
+import Image from "next/image";
 import Link from "next/link";
 
-export default function Blog() {
+const Projects = () => {
   return (
     <div className="bg-gray-100 antialiased">
       <Head>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link
@@ -17,7 +18,7 @@ export default function Blog() {
           href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
           rel="stylesheet"
         />
-        <title>Blog | Personal CV</title>
+        <title>Projects | Personal CV</title>
       </Head>
 
       <main className="main-container">
@@ -150,37 +151,40 @@ export default function Blog() {
             <div className="p-7 block-section">
               <ul className="flex space-x-8 font-medium">
                 <li>
-                  <a
-                    href="/public/index.html"
-                    className="menu-link-active menu-link-hover"
+                  <Link
+                    href="/"
+
                   >
-                    Resume
-                  </a>
+                    <a className="menu-link menu-link-hover">
+                      Resume
+
+                    </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/public/products.html"
+                  <Link href="/projects">
+                    <a className="menu-link-active menu-link-hover">
+                      Projects
+                    </a>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/products"
                     className="menu-link menu-link-hover"
                   >
                     Products
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/public/blog.html"
-                    className="menu-link menu-link-hover"
-                  >
-                    Blog
-                  </a>
+                  </Link>
                 </li>
               </ul>
               <div className="border-t border-gray-200 mb-5"></div>
 
-              <a
-                href="/public/single-article.html"
+              {/* Start of projects list */}
+              <Link
+                href="/projects/1"
                 className="article-title-hover block mb-5"
               >
-                <article className="article-section">
+                <article className="article-section mb-6">
                   <div className="space-y-3 mb-5 p-7 pb-0">
                     <h2 className="text-lg font-semibold">
                       Qui quasi aut iure provident occaecati dignissimos et
@@ -206,13 +210,12 @@ export default function Blog() {
                   </div>
 
                   <div className="article-img">
-                    <img
-                      src="https://images.unsplash.com/photo-1589149098258-3e9102cd63d3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
-                      alt=""
-                    />
+                    <Image alt="" src={"/assets/img/cover3.avif"}
+                      height={786} width={1000} />
+
                   </div>
                 </article>
-              </a>
+              </Link>
 
               <a
                 href="/public/single-article.html"
@@ -254,7 +257,10 @@ export default function Blog() {
             </div>
           </div>
         </div>
-      </main>
-    </div>
+      </main >
+    </div >
   );
 }
+
+
+export default Projects

@@ -1,11 +1,11 @@
 import Head from "next/head";
 import Link from "next/link";
 
-export default function Project() {
+const Project = () => {
   return (
     <div className="bg-gray-100 antialiased">
       <Head>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link
@@ -23,10 +23,11 @@ export default function Project() {
       <main className="main-container">
         <div className="grid gap-5 lg:grid-cols-3">
           <div className="space-y-5">
-            <button className="w-full bg-white text-[#845EEE] h-[62px] font-bold rounded-xl">
-              Back
-            </button>
-
+            <Link href={"/projects"}>
+              <button className="w-full bg-white text-[#845EEE] h-[62px] font-bold rounded-xl">
+                Back
+              </button>
+            </Link>
             <div className="shadow rounded-xl overflow-hidden">
               <div
                 className="h-32 bg-cover"
@@ -189,3 +190,6 @@ export default function Project() {
     </div>
   );
 }
+
+
+export default Project;

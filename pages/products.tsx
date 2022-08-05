@@ -1,11 +1,11 @@
 import Head from "next/head";
 import Link from "next/link";
 
-export default function Products() {
+const Products = () => {
   return (
-    <div className="bg-gray-100 antialiased">
+    <div className="bg-gray-100 antialiased" >
       <Head>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link
@@ -150,28 +150,28 @@ export default function Products() {
             <div className="p-7 block-section">
               <ul className="flex space-x-8 font-medium">
                 <li>
-                  <a
-                    href="/public/index.html"
-                    className="menu-link-active menu-link-hover"
-                  >
-                    Resume
-                  </a>
+                  <Link href="/">
+                    <a className="menu-link menu-link-hover">
+                      Resume
+                    </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/public/products.html"
-                    className="menu-link menu-link-hover"
-                  >
-                    Products
-                  </a>
+                  <Link href="/projects">
+                    <a className="menu-link menu-link-hover">
+                      Projects
+                    </a>
+                  </Link>
+
                 </li>
                 <li>
-                  <a
-                    href="/public/blog.html"
-                    className="menu-link menu-link-hover"
-                  >
-                    Blog
-                  </a>
+                  <Link href="/products">
+                    <a className="menu-link-active menu-link-hover">
+                      Products
+                    </a>
+                  </Link>
+
+
                 </li>
               </ul>
               <div className="border-t border-gray-200 mb-5"></div>
@@ -329,6 +329,9 @@ export default function Products() {
           </div>
         </div>
       </main>
-    </div>
+    </div >
   );
 }
+
+
+export default Products
