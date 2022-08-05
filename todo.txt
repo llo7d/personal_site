@@ -1,0 +1,9 @@
+- Fix Navigation ( Which link is active )
+
+- Home page
+-> Expirience on last post no line
+-> Education on last post no line
+
+- Product page
+-> On last product no line
+

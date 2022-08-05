@@ -6,7 +6,7 @@ const ProfileAbout = () => {
             <div className="p-7 block-section">
                 <h2 className="block-title">About me</h2>
                 <p className="text-gray-600 mb-5">
-                    Libero quas veritatis nulla distinctio fuga nihil temporibus et.
+                    Heyoo quas veritatis nulla distinctio fuga nihil temporibus et.
                     Quia dicta sapiente qui porro molestiae nobis incidunt
                     voluptatem. Et voluptas sunt nihil. At perferendis voluptatem
                     dolores nulla. Adipisci dolore non. Praesentium ipsa magnam ut

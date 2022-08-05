@@ -5,25 +5,19 @@ const Navigation = () => {
     return (
         <div>
             <ul className="flex space-x-8 font-medium">
-                <li>
-                    <Link
-                        href="/"
-                    >
-                        <a className="menu-link-active menu-link-hover">
 
-                            Resume
-                        </a>
-                    </Link>
+                <li className="menu-link-active menu-link-hover">
+                    <Link href="/"><a>Resume</a></Link>
                 </li>
-                <li>
-                    <Link href="/projects" className="menu-link menu-link-hover">
+                <li className="menu-link menu-link-hover">
+                    <Link href="/projects" >
                         Projects
                     </Link>
                 </li>
-                <li>
+                <li className="menu-link menu-link-hover">
                     <Link
                         href="/products"
-                        className="menu-link menu-link-hover"
+
                     >
                         Products
                     </Link>
