@@ -78,7 +78,7 @@ const Projects = () => {
             <ProfileAbout />
 
             <div className="p-7 block-section">
-              <Navigation />
+              <Navigation pathname="/projects" />
 
               {list_of_projects.map((project) => (
                 <ProjectCard
