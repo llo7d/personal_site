@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import Link from "next/link";
 import ProfileCard from "../../components/ProfileCard";
 import ProfileInformation from "../../components/ProfileInformation";
@@ -39,10 +40,18 @@ const Project = () => {
           <div className="space-y-5 lg:col-span-2">
             <article className="single-article-section">
               <div className="single-article-img">
-                <img
-                  src="https://images.unsplash.com/photo-1589149098258-3e9102cd63d3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
-                  alt=""
-                />
+                <div>
+                  <Image
+                    src={"/assets/img/cover3.avif"}
+                    alt="cover-image"
+                    width={1000}
+                    height={786}
+                  />
+                  {/* <img
+                    src="https://images.unsplash.com/photo-1589149098258-3e9102cd63d3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+                    alt=""
+                  /> */}
+                </div>
               </div>
               <div className="mb-5 pb-0">
                 <div className="space-y-4 p-7">
@@ -75,7 +84,7 @@ const Project = () => {
                   </p>
                 </div>
 
-                <img src="./assets/img/python-logo.png" alt="" />
+                <img src="/assets/img/python-logo.png" alt="" />
 
                 <div className="p-7 pb-12">
                   <p className="text-gray-600">
@@ -93,7 +102,7 @@ const Project = () => {
                   </p>
                 </div>
 
-                <img src="./assets/img/python-logo.png" alt="" />
+                <img src="/assets/img/python-logo.png" alt="" />
 
                 <div className="p-7 pb-12">
                   <p className="text-gray-600">

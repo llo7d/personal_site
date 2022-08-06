@@ -1,27 +1,33 @@
-import Image from 'next/image'
+import Image, { StaticImageData } from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
-const ProjectCard = () => {
+
+interface Props {
+    title: string
+    description: string
+    date: string
+    link: string
+    image: string | StaticImageData
+}
+
+const ProjectCard: React.FC<Props> = ({ title, description, date, link, image }) => {
+
     return (
-        <div>
+        <div className='target="_blank"'>
             <Link
-                href="/projects/1"
-                className="article-title-hover block mb-5"
+                href={link}
+                className="article-title-hover block mb-5 "
+
             >
-                <article className="article-section mb-6">
-                    <div className="space-y-3 mb-5 p-7 pb-0">
+                <article className="article-section mb-6" >
+                    <div className="space-y-3 mb-5 p-7 pb-0" >
                         <h2 className="text-lg font-semibold">
-                            Qui quasi aut iure provident occaecati dignissimos et
-                            illo.
+                            {title}
                         </h2>
 
                         <p className="text-gray-600">
-                            Numquam cumque ut excepturi. Nihil ea officiis. Voluptate
-                            cum velit quibusdam sed ducimus qui. Quis ut non hic
-                            facilis eum ut voluptatibus eveniet. Repellat accusantium
-                            non maxime sequi dignissimos magnam et quos. Consequatur
-                            vel numquam.
+                            {description}
                         </p>
 
                         <p>
@@ -29,15 +35,12 @@ const ProjectCard = () => {
                                 dateTime="2021-05-09 19:00"
                                 className="text-sm text-gray-400"
                             >
-                                May 09, 2021
+                                {date}
                             </time>
                         </p>
                     </div>
-
                     <div className="article-img">
-                        <Image alt="" src={"/assets/img/cover3.avif"}
-                            height={786} width={1000} />
-
+                        <Image alt="" src={image} width={1000} height={786} placeholder='empty' priority />
                     </div>
                 </article>
             </Link>

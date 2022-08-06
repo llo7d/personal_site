@@ -8,6 +8,8 @@ import ProfileInformation from "../components/ProfileInformation";
 import ProfileSkills from "../components/ProfileSkills";
 
 const Products = () => {
+
+
   return (
     <div className="bg-gray-100 antialiased" >
       <Head>
@@ -38,7 +40,7 @@ const Products = () => {
             <ProfileAbout />
 
             <div className="p-7 block-section">
-              <Navigation />
+              <Navigation pathname={"/products"} />
               <h2 className="block-title">Products</h2>
               <ProductCard />
               <ProductCard />

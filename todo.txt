@@ -1,4 +1,6 @@
-- Fix Navigation ( Which link is active )
+- Fill content
+
+- Fix Navigation ( Which link is active ) ( X )
 
 - Home page
 -> Expirience on last post no line
@@ -6,4 +8,6 @@
 
 - Product page
 -> On last product no line
+
+- Rename images correctly
 

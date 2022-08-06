@@ -9,7 +9,7 @@ const ProfileCard = () => {
                 <div
                     className="h-32 bg-cover "
                     style={{
-                        backgroundImage: "url('assets/img/cover2.jpg')",
+                        backgroundImage: "url('/assets/img/cover2.jpg')",
                     }}
                 ></div>
                 <div className="pt-14 p-7 bg-white relative">
@@ -22,6 +22,7 @@ const ProfileCard = () => {
                                 className='user-photo'
                                 width={80}
                                 height={80}
+                                priority
                             />
                         </div>
                     </Link>

@@ -7,8 +7,12 @@ import ProfileAbout from "../components/ProfileAbout";
 import ProfileCard from "../components/ProfileCard";
 import ProfileInformation from "../components/ProfileInformation";
 import ProfileSkills from "../components/ProfileSkills";
+import { useRouter } from "next/router"
+
 
 const Home = () => {
+
+
   return (
     <div className="bg-gray-100 antialiased">
       <Head>
@@ -39,7 +43,7 @@ const Home = () => {
             <ProfileAbout />
             <div className="p-7 block-section">
               {/* Navigation */}
-              <Navigation />
+              <Navigation pathname={"/"} />
               <h2 className="block-title">Experience</h2>
               <ExperienceCard />
 
