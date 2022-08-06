@@ -9,13 +9,13 @@ const ProfileInformation = () => {
                     <div className="flex justify-between">
                         <div className="text-gray-400">Location</div>
                         <div className="font-medium text-right text-gray-600">
-                            London
+                            Berlin
                         </div>
                     </div>
                     <div className="flex justify-between">
                         <div className="text-gray-400">Experience</div>
                         <div className="font-medium text-right text-gray-600">
-                            3+ years
+                            2+ years
                         </div>
                     </div>
                     <div className="flex justify-between">
@@ -24,10 +24,10 @@ const ProfileInformation = () => {
                             1 week
                         </div>
                     </div>
-                    <div className="flex justify-between">
+                    {/* <div className="flex justify-between">
                         <div className="text-gray-400">Relocation</div>
                         <div className="font-medium text-right text-gray-600">No</div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

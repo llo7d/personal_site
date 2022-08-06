@@ -7,17 +7,17 @@ const ProfileCard = () => {
         <div>
             <div className="shadow rounded-xl overflow-hidden">
                 <div
-                    className="h-32 bg-cover"
+                    className="h-32 bg-cover "
                     style={{
-                        backgroundImage: "url('assets/img/cover.jpg')",
+                        backgroundImage: "url('assets/img/cover2.jpg')",
                     }}
                 ></div>
                 <div className="pt-14 p-7 bg-white relative">
-                    <span className="status-badge bg-gray-400">Busy</span>
+                    <span className="status-badge bg-green-400 ">Open</span>
                     <Link href="/">
-                        <div className='user-photo'>
+                        <div className='user-photo '>
                             <Image
-                                src="/assets/img/avatar.jpg"
+                                src="/assets/img/avatar1.jpg"
                                 alt="Avatar"
                                 className='user-photo'
                                 width={80}
@@ -26,10 +26,10 @@ const ProfileCard = () => {
                         </div>
                     </Link>
                     <div className="text-lg font-semibold mb-1.5">
-                        Cristopher Abbott
+                        Peter Lloyd Skubur
                     </div>
                     <div className="text-sm text-gray-400 mb-7">
-                        Senior Developer
+                        Junior Developer
                     </div>
                     <div className="flex group">
                         <button className="download-btn">Download CV</button>

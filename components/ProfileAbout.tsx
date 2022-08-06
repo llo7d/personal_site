@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const ProfileAbout = () => {
@@ -13,32 +14,40 @@ const ProfileAbout = () => {
                     quia explicabo voluptates.
                 </p>
 
-                <div className="flex flex-col space-y-4">
-                    <a href="#0" className="mail-link social-link-hover">
-                        <i className="bx bx-at text-xl"></i>
-                        <span>crisabbott@email.com</span>
-                    </a>
+                <div className="flex flex-col space-y-4" >
+                    <Link href={"/contact"} >
+                        <a className="mail-link social-link-hover" target="_blank" >
+                            <i className="bx bx-at text-xl mail-link social-link-hover"></i>
+                            <span>peter@zudrit.com</span>
+                        </a>
+                    </Link>
 
                     <ul className="flex space-x-5">
                         <li>
-                            <a href="#0" className="social-link-hover">
-                                <i className="bx bxl-facebook-circle text-2xl"></i>
-                            </a>
+                            <Link href={"https://www.youtube.com/channel/UCr7xtC98NW4H0b4UcrShpDA"} >
+                                <a className="social-link-hover" target="_blank">
+                                    <i className="bx bxl-youtube text-2xl" ></i>
+                                </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#0" className="social-link-hover">
-                                <i className="bx bxl-twitter text-2xl"></i>
-                            </a>
+                            <Link href={"https://twitter.com/"}>
+                                <a className="social-link-hover" target="_blank">
+                                    <i className="bx bxl-twitter text-2xl"></i>
+                                </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#0" className="social-link-hover">
-                                <i className="bx bxl-github text-2xl"></i>
-                            </a>
+                            <Link href={"https://github.com/peterlloydskubur"}>
+                                <a className="social-link-hover" target="_blank">
+                                    <i className="bx bxl-github text-2xl"></i>
+                                </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 
