@@ -1,13 +1,19 @@
-- Fill content
+- Fill the site with content
+-> Projects 
+-> Products
+-> Education
+-> Expirience
 
-- Fix Navigation ( Which link is active ) ( X )
+- Rename images correctly in the public folder
+- Double check <Head> content is correct.
+- Decide what to do with DownloadCV
+-> https://preview.launchoice.com/personal_cv/blog.html
 
 - Home page
--> Expirience on last post no line
--> Education on last post no line
+-> Expirience on last post no line ( X )
+-> Education on last post no line ( X )
 
-- Product page
--> On last product no line
+- Product page ( X )
+-> On last product no line ( X )
 
-- Rename images correctly
 

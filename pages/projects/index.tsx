@@ -1,6 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
 import ProfileAbout from "../../components/ProfileAbout";
 import ProfileCard from "../../components/ProfileCard";
 import ProfileInformation from "../../components/ProfileInformation";
