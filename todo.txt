@@ -1,10 +1,15 @@
 - Fill the site with content
 -> Projects 
+--> 3D ( X )
+--> Nextjs ( X )
+--> Web scrapping
+
 -> Products ( X )
 -> Education ( X )
 -> Expirience ( X )
 
 - UPDATE README and push github public ( )
+- Fix Products so link redirects.
 
 - Rename images correctly in the public folder ( X )
 
