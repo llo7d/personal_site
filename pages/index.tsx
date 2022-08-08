@@ -41,7 +41,7 @@ const Home = () => {
       location: "Berlin",
       type: "Full Time",
       date: "August 2019 – September 2020",
-      description: "Worked on a educational children YouTube show called Ham and Ster. Was responsible about everything from business expenses to production, this is where I learned a lot about 3D Production.",
+      description: "Worked on a educational children YouTube show called Ham and Ster. Was responsible for everything from business expenses to production, this is where I learned a lot about 3D Production.",
       last: false
     },
     {
@@ -95,7 +95,7 @@ const Home = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link
           rel="shortcut icon"
-          href="assets/img/favicon.png"
+          href="/img/favicon.png"
           type="image/x-icon"
         />
         <link

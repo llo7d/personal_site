@@ -1,11 +1,16 @@
 - Fill the site with content
--> Projects ( X )
--> Products image.pngimage.pngimage.png
--> Education image.png
--> Expirience image.png
+-> Projects 
+-> Products ( X )
+-> Education ( X )
+-> Expirience ( X )
 
-- Rename images correctly in the public folder
+- UPDATE README and push github public ( )
+
+- Rename images correctly in the public folder ( X )
+
 - Double check <Head> content is correct.
+-> Fix favicon 
+
 - Decide what to do with DownloadCV
 -> https://preview.launchoice.com/personal_cv/blog.html
 

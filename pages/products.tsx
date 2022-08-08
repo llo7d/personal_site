@@ -33,14 +33,14 @@ const Products = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link
           rel="shortcut icon"
-          href="assets/img/favicon.png"
+          href="/img/favicon.png"
           type="image/x-icon"
         />
         <link
           href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
           rel="stylesheet"
         />
-        <title>Products | Personal CV</title>
+        <title>Products | Home</title>
       </Head>
 
       <main className="main-container">

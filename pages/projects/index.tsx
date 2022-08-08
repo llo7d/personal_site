@@ -22,25 +22,17 @@ const Projects = () => {
     },
     {
       title: "Nextjs fullstack app",
-      description: "Numquam cumque ut excepturi. Nihil ea officiis. Voluptatecum velit quibusdam sed ducimus qui.Quis ut non hicfacilis eum ut voluptatibus eveniet.Repellat accusantiumnon maxime sequi dignissimos magnam et quos.Consequaturvel numquam.",
+      description: "A fun project where I tried to recreate a simplified version of twitter. Users could login, tweet, see the latest tweets on the home page, see their own tweets and uploaded images on their profile page.",
       date: "July 20, 2022",
-      link: "/projects/project-1",
+      link: "/projects/next-fullstack",
       image: "/assets/img/project-nextjs-twitter/cover-3d-card.jpg",
       key: "2",
     },
     {
-      title: "Web Scrapping Project",
-      description: "Numquam cumque ut excepturi. Nihil ea officiis. Voluptatecum velit quibusdam sed ducimus qui.Quis ut non hicfacilis eum ut voluptatibus eveniet.Repellat accusantiumnon maxime sequi dignissimos magnam et quos.Consequaturvel numquam.",
+      title: "Web Scrapping Tool",
+      description: "A project where I scrapped sales data from 3 diffrent website each having a custom logins to access the data and then data needed modified to be used with each other to create a graph.",
       date: "February 02, 2022",
-      link: "/projects/project-1",
-      image: "/assets/img/project-web-scrapper/cover-3d-card.jpg",
-      key: "23",
-    },
-    {
-      title: "Another project",
-      description: "Numquam cumque ut excepturi. Nihil ea officiis. Voluptatecum velit quibusdam sed ducimus qui.Quis ut non hicfacilis eum ut voluptatibus eveniet.Repellat accusantiumnon maxime sequi dignissimos magnam et quos.Consequaturvel numquam.",
-      date: "February 02, 2022",
-      link: "/projects/project-1",
+      link: "/projects/web-scrapper",
       image: "/assets/img/project-web-scrapper/cover-3d-card.jpg",
       key: "23",
     },
@@ -54,14 +46,14 @@ const Projects = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link
           rel="shortcut icon"
-          href="assets/img/favicon.png"
+          href="/img/favicon.png"
           type="image/x-icon"
         />
         <link
           href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
           rel="stylesheet"
         />
-        <title>Projects | Personal CV</title>
+        <title>Project | Home</title>
       </Head>
 
       <main className="main-container">
