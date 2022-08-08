@@ -3,7 +3,7 @@ import React from 'react'
 
 
 interface ExperienceCardProps {
-    key: number
+    id?: number
     image: string
     title: string
     company: string
@@ -14,9 +14,10 @@ interface ExperienceCardProps {
     last: boolean
 }
 
-const ExperienceCard = ({ key, image, company, title, location, type, date, description, last }: ExperienceCardProps) => {
+const ExperienceCard = ({ image, company, title, location, type, date, description, last }: ExperienceCardProps) => {
     return (
-        <div key={key}>
+        <div>
+
             <div className="mb-5 item-section">
                 <div className="company-logo">
                     <Image

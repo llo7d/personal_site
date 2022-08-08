@@ -9,7 +9,7 @@ const ProfileCard = () => {
                 <div
                     className="h-32 bg-cover "
                     style={{
-                        backgroundImage: "url('/assets/img/cover2.jpg')",
+                        backgroundImage: "url('/img/cover-card.jpg')",
                     }}
                 ></div>
                 <div className="pt-14 p-7 bg-white relative">
@@ -17,7 +17,7 @@ const ProfileCard = () => {
                     <Link href="/">
                         <div className='user-photo '>
                             <Image
-                                src="/assets/img/avatar1.jpg"
+                                src="/img/avatar1.jpg"
                                 alt="Avatar"
                                 className='user-photo'
                                 width={80}

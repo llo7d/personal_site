@@ -14,23 +14,11 @@ const Products = () => {
       letter: "B",
       letterColour: "company-logo bg-orange-500",
       name: "BLRDY",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      description: "Buy or Customize 3D characters.",
       type: "Tools",
       svg: "https://img.icons8.com/color/48/000000/tools.png",
       role: "Founder",
-      link: "https://www.google.com",
-      last: false
-    },
-    {
-      id: 2,
-      letter: "B",
-      letterColour: "company-logo bg-orange-500",
-      name: "BLRDY",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      type: "Tools",
-      svg: "https://img.icons8.com/color/48/000000/tools.png",
-      role: "Founder",
-      link: "https://www.google.com",
+      link: "https://www.BLRDY.com",
       last: true
     },
 

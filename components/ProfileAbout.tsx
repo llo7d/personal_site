@@ -7,11 +7,13 @@ const ProfileAbout = () => {
             <div className="p-7 block-section">
                 <h2 className="block-title">About me</h2>
                 <p className="text-gray-600 mb-5">
-                    Heyoo quas veritatis nulla distinctio fuga nihil temporibus et.
-                    Quia dicta sapiente qui porro molestiae nobis incidunt
-                    voluptatem. Et voluptas sunt nihil. At perferendis voluptatem
-                    dolores nulla. Adipisci dolore non. Praesentium ipsa magnam ut
-                    quia explicabo voluptates.
+                    Juniour Developer from Berlin, Germany. Big fan of software and business.
+                    <br></br>
+                    Currently I am really focused on learning about everything Web Development and Mechatronics and applying it to my own projects in unique and diffrent ways.
+                    <br></br>
+                    I also like talking about the things I learn on my YouTube channel.
+
+
                 </p>
 
                 <div className="flex flex-col space-y-4" >

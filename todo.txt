@@ -1,8 +1,8 @@
 - Fill the site with content
--> Projects 
--> Products
--> Education
--> Expirience
+-> Projects ( X )
+-> Products image.pngimage.pngimage.png
+-> Education image.png
+-> Expirience image.png
 
 - Rename images correctly in the public folder
 - Double check <Head> content is correct.
