@@ -7,7 +7,7 @@ const ProfileAbout = () => {
             <div className="p-7 block-section">
                 <h2 className="block-title">About me</h2>
                 <p className="text-gray-600 mb-5">
-                    Juniour Developer from Berlin, Germany. Big fan of software and business.
+                    Junior  Developer from Berlin, Germany. Big fan of software and business.
                     <br></br>
                     Currently I am really focused on learning about everything Web Development and Mechatronics and applying it to my own projects in unique and diffrent ways.
                     <br></br>
