@@ -142,7 +142,7 @@ const Home = () => {
                   duration={item.duration}
                   image={item.image}
                   last={item.last}
-                />
+                  id={item.id} />
               ))}
 
             </div>
