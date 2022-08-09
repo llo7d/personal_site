@@ -42,10 +42,10 @@ const Project = () => {
                             <div className="single-article-img">
                                 <div>
                                     <Image
-                                        src={"/assets/img/cover3.avif"}
+                                        src={"/img/project-web-scrapper/content-2.jpg"}
                                         alt="cover-image"
                                         width={1000}
-                                        height={786}
+                                        height={460}
                                     />
 
                                 </div>
@@ -54,61 +54,83 @@ const Project = () => {
                                 <div className="space-y-4 p-7">
                                     <div className="space-y-2">
                                         <h2 className="text-lg font-semibold">
-                                            Qui quasi aut iure provident occaecati dignissimos et
-                                            illo.
+                                            Scrapping sales data and displaying it.
                                         </h2>
                                         <p>
                                             <time
                                                 dateTime="2021-05-09 19:00"
                                                 className="text-sm text-gray-400"
                                             >
-                                                May 09, 2021
+                                                February 02, 2022
                                             </time>
                                         </p>
                                     </div>
 
                                     <div className="flex flex-wrap">
                                         <span className="skill-tag">Python</span>
-                                        <span className="skill-tag">Blender</span>
-                                        <span className="skill-tag">Fullstack Development</span>
+                                        <span className="skill-tag">Selenium </span>
                                     </div>
+                                    <video
+                                        className="w-full h-full"
+                                        src={"/img/project-web-scrapper/video-2.mp4"}
+                                        muted
+                                        autoPlay
+                                        loop
+                                        controls={false}
+                                    />
 
                                     <p className="text-gray-600">
-                                        Numquam cumque ut excepturi. Nihil ea officiis. Voluptate
-                                        cum velit quibusdam sed ducimus qui. Quis ut non hic facilis
-                                        eum ut voluptatibus eveniet. Repellat accusantium non maxime
-                                        sequi dignissimos magnam et quos. Consequatur vel numquam.
+
+                                        I used some of the following technologies:
+                                        <br></br>
+                                        <Link href={"/projects/next-fullstack"}>
+                                            <a className="text-purple-500 mr-1" target="_blank">
+                                                Python
+                                            </a>
+                                        </Link>
+                                        as the language
+                                        <br></br>
+                                        <Link href={"/projects/next-fullstack"}>
+                                            <a className="text-purple-500 mr-1" target="_blank">
+                                                Selenium
+                                            </a>
+                                        </Link>
+                                        as the scrapper
+                                        <br></br>
+                                        <Link href={"/projects/next-fullstack"}>
+                                            <a className="text-purple-500 mr-1" target="_blank">
+                                                Chart.js
+                                            </a>
+                                        </Link>
+                                        to display the data
+                                        <br></br>
+                                        <br></br>
+                                        This was a personal project I created to scrape sales data from 3 diffrent websites where I sold 3D products.
+                                        <br></br>
+                                        Each website displayed the data diffrently so I also had to modify the data to work with eachother.
+                                        This was a fun project as this was a real life problem and the motivation was high to solve it.
+
+                                        <br></br>
+                                        <br></br>
+
                                     </p>
                                 </div>
 
-                                <img src="/img/python-logo.png" alt="" />
+
 
                                 <div className="p-7 pb-12">
                                     <p className="text-gray-600">
-                                        Numquam cumque ut excepturi. Nihil ea officiis. Voluptate
-                                        cum velit quibusdam sed ducimus qui. Quis ut non hic facilis
-                                        eum ut voluptatibus eveniet. Repellat accusantium non maxime
-                                        sequi dignissimos magnam et quos. Consequatur vel numquam.
-                                    </p>
-                                    <br />
-                                    <p className="text-gray-600">
-                                        Numquam cumque ut excepturi. Nihil ea officiis. Voluptate
-                                        cum velit quibusdam sed ducimus qui. Quis ut non hic facilis
-                                        eum ut voluptatibus eveniet. Repellat accusantium non maxime
-                                        sequi dignissimos magnam et quos. Consequatur vel numquam.
+                                        <div className="flex justify-center">
+                                            You can checkout the code on my
+                                            <Link href={"/projects/next-fullstack"}>
+                                                <a className="text-purple-500 ml-1" target="_blank">
+                                                    Github.
+                                                </a>
+                                            </Link>
+                                        </div>
                                     </p>
                                 </div>
 
-                                <img src="/img/python-logo.png" alt="" />
-
-                                <div className="p-7 pb-12">
-                                    <p className="text-gray-600">
-                                        Numquam cumque ut excepturi. Nihil ea officiis. Voluptate
-                                        cum velit quibusdam sed ducimus qui. Quis ut non hic facilis
-                                        eum ut voluptatibus eveniet. Repellat accusantium non maxime
-                                        sequi dignissimos magnam et quos. Consequatur vel numquam.
-                                    </p>
-                                </div>
                             </div>
                         </article>
                     </div>

@@ -98,36 +98,36 @@ const Project = () => {
 
 
                                         <Link href={"/projects/next-fullstack"}>
-                                            <a className="text-purple-500" target="_blank">
-                                                Nextjs {""}
+                                            <a className="text-purple-500 mr-1" target="_blank">
+                                                Nextjs
                                             </a>
                                         </Link>
                                         as the framework
                                         <br></br>
                                         <Link href={"/projects/next-fullstack"}>
-                                            <a className="text-purple-500" target="_blank">
-                                                Firebase {""}
+                                            <a className="text-purple-500 mr-1" target="_blank">
+                                                Firebase
                                             </a>
                                         </Link>
                                         as our backend
                                         <br></br>
                                         <Link href={"/projects/next-fullstack"}>
-                                            <a className="text-purple-500" target="_blank">
-                                                Tailwind {""}
+                                            <a className="text-purple-500 mr-1" target="_blank">
+                                                Tailwind
                                             </a>
                                         </Link>
                                         for styling
                                         <br></br>
                                         <Link href={"/projects/next-fullstack"}>
-                                            <a className="text-purple-500" target="_blank">
-                                                Typescript {""}
+                                            <a className="text-purple-500 mr-1" target="_blank">
+                                                Typescript
                                             </a>
                                         </Link>
                                         as our language.
                                         <br></br>
                                         <Link href={"/projects/next-fullstack"}>
-                                            <a className="text-purple-500" target="_blank">
-                                                Flowbite {""}
+                                            <a className="text-purple-500 mr-1" target="_blank">
+                                                Flowbite
                                             </a>
                                         </Link>
                                         for styled tailwind components
@@ -135,8 +135,8 @@ const Project = () => {
                                         <br></br>
 
                                         <Link href={"/projects/next-fullstack"}>
-                                            <a className="text-purple-500" target="_blank">
-                                                React-Hot-Toast {""}
+                                            <a className="text-purple-500 mr-1" target="_blank">
+                                                React-Hot-Toast
                                             </a>
                                         </Link>
                                         for notifications
@@ -148,9 +148,9 @@ const Project = () => {
                                         <br></br>
                                         <br></br>
 
-                                        Check out the code on {""}
+                                        Check out the code on
                                         <Link href={"/projects/next-fullstack"}>
-                                            <a className="text-purple-500" target="_blank">
+                                            <a className="text-purple-500 mr-1" target="_blank">
                                                 Github
                                             </a>
                                         </Link>
