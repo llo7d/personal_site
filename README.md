@@ -1,12 +1,1 @@
-# This is my personal site.
-
-You can run the project by running:
-```
-yarn install
-```
-
-and then
-
-```bash
-yarn dev
-```
+# This is my [personal site.](https://personal-site-dndzarc4c-peterlloydskubur.vercel.app/ "Personal Site")
