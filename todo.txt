@@ -8,18 +8,10 @@
 -> Education ( X )
 -> Expirience ( X )
 
-
-
-- UPDATE README and push github public ( )
-- Fix Products so link redirects.
-- Redo resume & Education images? ( )
-
+- Fix Products so link redirects. ( X )
 - Rename images correctly in the public folder ( X )
 
-- Double check <Head> content is correct.
--> Fix favicon 
-
-- Decide what to do with DownloadCV
+- Decide what to do with DownloadCV ( X )
 -> https://preview.launchoice.com/personal_cv/blog.html
 
 - Home page
@@ -29,4 +21,13 @@
 - Product page ( X )
 -> On last product no line ( X )
 
+--------------
+
+- Double check <Head> content is correct. ( X )
+-> Fix favicon ( X )
+
+- UPDATE README and push github public ( )
+- Redo resume & Education images? ( )
+
+- Publish the site ofcourse.
 

@@ -17,7 +17,7 @@ const Projects = () => {
       description: "Tool that automates the process of generating a 360 preview of a 3D model using Blender and Python.",
       date: "July 07, 2022",
       link: "https://github.com/peterlloydskubur/3D-Model-Showcase",
-      image: "/assets/img/project-3d-preview/cover-3d-card.jpg",
+      image: "/img/project-3d-preview/cover-3d-card.jpg",
       key: "1",
     },
     {
@@ -25,7 +25,7 @@ const Projects = () => {
       description: "A fun project where I tried to recreate a simplified version of twitter. Users could login, tweet, see the latest tweets on the home page, see their own tweets and uploaded images on their profile page.",
       date: "July 20, 2022",
       link: "/projects/next-fullstack",
-      image: "/assets/img/project-nextjs-twitter/cover-3d-card.jpg",
+      image: "/img/project-nextjs-twitter/cover-3d-card.jpg",
       key: "2",
     },
     {
@@ -33,8 +33,8 @@ const Projects = () => {
       description: "A project where I scrapped sales data from 3 diffrent website each having a custom logins to access the data and then data needed modified to be used with each other to create a graph.",
       date: "February 02, 2022",
       link: "/projects/web-scrapper",
-      image: "/assets/img/project-web-scrapper/cover-3d-card.jpg",
-      key: "23",
+      image: "/img/project-web-scrapper/cover-3d-card.jpg",
+      key: "3",
     },
   ];
 
@@ -48,10 +48,6 @@ const Projects = () => {
           rel="shortcut icon"
           href="/img/favicon.png"
           type="image/x-icon"
-        />
-        <link
-          href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
-          rel="stylesheet"
         />
         <title>Project | Home</title>
       </Head>

@@ -17,10 +17,6 @@ const Project = () => {
                     href="/img/favicon.png"
                     type="image/x-icon"
                 />
-                <link
-                    href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
-                    rel="stylesheet"
-                />
                 <title>Project | Next.js</title>
             </Head>
 
@@ -40,7 +36,7 @@ const Project = () => {
                     <div className="space-y-5 lg:col-span-2">
                         <article className="single-article-section">
                             <div className="single-article-img">
-                                {/* <div>
+                                <div>
                                     <Image
                                         src={"/img/project-nextjs-twitter/content-2.jpg"}
                                         alt="cover-image"
@@ -48,7 +44,7 @@ const Project = () => {
                                         height={786}
                                     />
 
-                                </div> */}
+                                </div>
                             </div>
                             <div className="mb-5 pb-0">
                                 <div className="space-y-4 p-7">
@@ -97,35 +93,35 @@ const Project = () => {
                                         {/* Link to Nextjs project and colour it purple */}
 
 
-                                        <Link href={"/projects/next-fullstack"}>
+                                        <Link href={"https://nextjs.org/"}>
                                             <a className="text-purple-500 mr-1" target="_blank">
                                                 Nextjs
                                             </a>
                                         </Link>
                                         as the framework
                                         <br></br>
-                                        <Link href={"/projects/next-fullstack"}>
+                                        <Link href={"https://firebase.google.com/"}>
                                             <a className="text-purple-500 mr-1" target="_blank">
                                                 Firebase
                                             </a>
                                         </Link>
                                         as our backend
                                         <br></br>
-                                        <Link href={"/projects/next-fullstack"}>
+                                        <Link href={"https://tailwindcss.com/"}>
                                             <a className="text-purple-500 mr-1" target="_blank">
                                                 Tailwind
                                             </a>
                                         </Link>
                                         for styling
                                         <br></br>
-                                        <Link href={"/projects/next-fullstack"}>
+                                        <Link href={"https://www.typescriptlang.org/"}>
                                             <a className="text-purple-500 mr-1" target="_blank">
                                                 Typescript
                                             </a>
                                         </Link>
                                         as our language.
                                         <br></br>
-                                        <Link href={"/projects/next-fullstack"}>
+                                        <Link href={"https://flowbite.com/"}>
                                             <a className="text-purple-500 mr-1" target="_blank">
                                                 Flowbite
                                             </a>
@@ -134,7 +130,7 @@ const Project = () => {
 
                                         <br></br>
 
-                                        <Link href={"/projects/next-fullstack"}>
+                                        <Link href={"https://react-hot-toast.com/"}>
                                             <a className="text-purple-500 mr-1" target="_blank">
                                                 React-Hot-Toast
                                             </a>
@@ -143,17 +139,36 @@ const Project = () => {
                                     </p>
                                     <br />
                                     <p className="text-gray-600">
+                                        In this project I created a simplified Twitter clone where users could login with Google, create a short tweet, see their tweets the main page and also on their profile page.
+                                        <br></br>
+                                        I learned a lot about Nextjs and rendering types such as SSR,SSG and data pre-fetching.
+                                        <br></br>
+                                        I also learned a lot about advanced Firebase filtering and database modeling.
+                                        <br></br>
                                         I really enjoyed working with these technologies and I plan to use them again in the future.
 
                                         <br></br>
                                         <br></br>
 
-                                        Check out the code on
+                                        {/* Check out the code on
                                         <Link href={"/projects/next-fullstack"}>
                                             <a className="text-purple-500 mr-1" target="_blank">
                                                 Github
                                             </a>
-                                        </Link>
+                                        </Link> */}
+                                    </p>
+                                </div>
+
+                                <div className="p-7 pb-12">
+                                    <p className="text-gray-600">
+                                        <div className="flex justify-center">
+                                            You can checkout the code on my
+                                            <Link href={"https://gitfront.io/r/user-3021369/kFJsHpPK5Ssb/twitter-nextjs/"}>
+                                                <a className="text-purple-500 ml-1" target="_blank">
+                                                    Github.
+                                                </a>
+                                            </Link>
+                                        </div>
                                     </p>
                                 </div>
 

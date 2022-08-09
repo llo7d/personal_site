@@ -24,7 +24,7 @@ const Home = () => {
     },
     {
       id: 3,
-      image: "/img/experience-3.png",
+      image: "/img/favicon.png",
       title: "Juniour Developer",
       company: "None",
       location: "Berlin",
@@ -64,7 +64,7 @@ const Home = () => {
       school: "Self-Taught",
       location: "Berlin",
       duration: "December 2020 – Present",
-      image: "img/education-3.png",
+      image: "/img/favicon.png",
       last: false
     },
     {
@@ -97,10 +97,6 @@ const Home = () => {
           rel="shortcut icon"
           href="/img/favicon.png"
           type="image/x-icon"
-        />
-        <link
-          href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
-          rel="stylesheet"
         />
         <title>Home | Personal CV</title>
       </Head>

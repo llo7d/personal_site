@@ -1,7 +1,7 @@
 import React from 'react'
 
 interface EducationCardProps {
-    key: number,
+    id: number,
     degree: string,
     school: string,
     location: string,
@@ -11,10 +11,10 @@ interface EducationCardProps {
 }
 
 
-const EducationCard = ({ key, degree, school, location, duration, image, last }: EducationCardProps) => {
+const EducationCard = ({ id, degree, school, location, duration, image, last }: EducationCardProps) => {
 
     return (
-        <div key={key}>
+        <div key={id}>
             <div className="mb-5 item-section">
                 <div
                     className="flex-shrink-0 w-12 h-12 rounded-xl bg-cover"

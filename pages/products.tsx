@@ -36,10 +36,6 @@ const Products = () => {
           href="/img/favicon.png"
           type="image/x-icon"
         />
-        <link
-          href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
-          rel="stylesheet"
-        />
         <title>Products | Home</title>
       </Head>
 

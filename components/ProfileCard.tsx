@@ -29,10 +29,10 @@ const ProfileCard = () => {
                     <div className="text-lg font-semibold mb-1.5">
                         Peter Lloyd Skubur
                     </div>
-                    <div className="text-sm text-gray-400 mb-7">
+                    <div className="text-sm text-gray-400">
                         Junior Developer
                     </div>
-                    <div className="flex group">
+                    {/* <div className="flex group">
                         <button className="download-btn">Download CV</button>
                         <button className="download-btn-icon">
                             <svg
@@ -50,7 +50,7 @@ const ProfileCard = () => {
                                 />
                             </svg>
                         </button>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 

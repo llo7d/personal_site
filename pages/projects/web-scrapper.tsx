@@ -17,10 +17,6 @@ const Project = () => {
                     href="/img/favicon.png"
                     type="image/x-icon"
                 />
-                <link
-                    href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
-                    rel="stylesheet"
-                />
                 <title>Project | Web Scrapper Project</title>
             </Head>
 
@@ -83,21 +79,21 @@ const Project = () => {
 
                                         I used some of the following technologies:
                                         <br></br>
-                                        <Link href={"/projects/next-fullstack"}>
+                                        <Link href={"https://www.python.org/"}>
                                             <a className="text-purple-500 mr-1" target="_blank">
                                                 Python
                                             </a>
                                         </Link>
                                         as the language
                                         <br></br>
-                                        <Link href={"/projects/next-fullstack"}>
+                                        <Link href={"https://www.selenium.dev/"}>
                                             <a className="text-purple-500 mr-1" target="_blank">
                                                 Selenium
                                             </a>
                                         </Link>
                                         as the scrapper
                                         <br></br>
-                                        <Link href={"/projects/next-fullstack"}>
+                                        <Link href={"https://www.chartjs.org/"}>
                                             <a className="text-purple-500 mr-1" target="_blank">
                                                 Chart.js
                                             </a>
@@ -122,7 +118,7 @@ const Project = () => {
                                     <p className="text-gray-600">
                                         <div className="flex justify-center">
                                             You can checkout the code on my
-                                            <Link href={"/projects/next-fullstack"}>
+                                            <Link href={"https://gitfront.io/r/user-3021369/mZS2s6SVAcBw/display-sale-data/blob/getting-data/getting_data.py"}>
                                                 <a className="text-purple-500 ml-1" target="_blank">
                                                     Github.
                                                 </a>

@@ -4,6 +4,7 @@ import React from 'react'
 
 
 interface Props {
+    id?: number | string,
     title: string
     description: string
     date: string
@@ -11,10 +12,10 @@ interface Props {
     image: string | StaticImageData
 }
 
-const ProjectCard: React.FC<Props> = ({ title, description, date, link, image }) => {
+const ProjectCard: React.FC<Props> = ({ id, title, description, date, link, image }) => {
 
     return (
-        <div >
+        <div key={id} >
             <Link href={link}>
                 {/* Shity way to do it but hey, it works */}
                 {title === "3D Character Preview Tool" ? (
