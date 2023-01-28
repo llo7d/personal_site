@@ -25,7 +25,7 @@ const Home = () => {
     {
       id: 3,
       image: "/img/favicon.png",
-      title: "Juniour Developer",
+      title: "Junior Developer",
       company: "None",
       location: "Berlin",
       type: "Part-Time",
